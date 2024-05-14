@@ -81,6 +81,15 @@
       "compilerOptions": {
         "tsConfigPath": "libs/notification/tsconfig.lib.json"
       }
+    },
+    "exception-filter": {
+      "type": "library",
+      "root": "libs/exception-filter",
+      "entryFile": "index",
+      "sourceRoot": "libs/exception-filter/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/exception-filter/tsconfig.lib.json"
+      }
     }
   }
 }
