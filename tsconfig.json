@@ -53,6 +53,18 @@
       ],
       "@app/exception-filter/*": [
         "libs/exception-filter/src/*"
+      ],
+      "@app/config": [
+        "libs/config/src"
+      ],
+      "@app/config/*": [
+        "libs/config/src/*"
+      ],
+      "@app/helpers": [
+        "libs/helpers/src"
+      ],
+      "@app/helpers/*": [
+        "libs/helpers/src/*"
       ]
     }
   }

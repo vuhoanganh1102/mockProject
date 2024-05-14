@@ -1,4 +1,4 @@
-import { isBetween } from '@app/helpers';
+// import { isBetween } from '@app/helpers';
 import Ajv from 'ajv';
 import addFormats from 'ajv-formats';
 import { first } from 'lodash';
@@ -24,13 +24,13 @@ AjvInstance.addFormat('ISOString', {
   },
 });
 
-AjvInstance.addFormat('latitude', {
-  validate: (lat: string) => isBetween(lat, '-90', '90'),
-});
+// AjvInstance.addFormat('latitude', {
+//   validate: (lat: string) => isBetween(lat, '-90', '90'),
+// });
 
-AjvInstance.addFormat('longitude', {
-  validate: (lng: string) => isBetween(lng, '-180', '180'),
-});
+// AjvInstance.addFormat('longitude', {
+//   validate: (lng: string) => isBetween(lng, '-180', '180'),
+// });
 
 AjvInstance.addFormat('integer', {
   validate: (num: number) => Number.isInteger(+num),
