@@ -22,6 +22,7 @@
   "dependencies": {
     "@nestjs/common": "^10.0.0",
     "@nestjs/core": "^10.0.0",
+    "@nestjs/jwt": "^10.2.0",
     "@nestjs/platform-express": "^10.0.0",
     "reflect-metadata": "^0.2.0",
     "rxjs": "^7.8.1"
@@ -74,7 +75,8 @@
       "^@app/core(|/.*)$": "<rootDir>/libs/core/src/$1",
       "^@app/database-typeorm(|/.*)$": "<rootDir>/libs/database-typeorm/src/$1",
       "^@app/send-email(|/.*)$": "<rootDir>/libs/send-email/src/$1",
-      "^@app/notification(|/.*)$": "<rootDir>/libs/notification/src/$1"
+      "^@app/notification(|/.*)$": "<rootDir>/libs/notification/src/$1",
+      "^@app/exception-filter(|/.*)$": "<rootDir>/libs/exception-filter/src/$1"
     }
   }
 }
